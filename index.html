@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container" id="container">
+      <div class="text">
+        <h1>Stay updated!</h1>
+        <p>Join 60,000+ product managers receiving monthly <br> updates on:</p>
+        <table>
+          <tbody><tr>
+            <td><img src="assets/images/icon-list.svg" alt="" srcset=""></td>
+            <td>Product discovery and building what matters</td>
+          </tr>
+          <tr>
+            <td><img src="assets/images/icon-list.svg" alt="" srcset=""></td>
+            <td>Measuring to ensure updates are a success</td>
+          </tr>
+          <tr>
+            <td><img src="assets/images/icon-list.svg" alt="" srcset=""></td>
+            <td>And much more!</td>
+          </tr>
+        </tbody></table>
+        <p class="mail">Email Address <span id="result">Valid email required.</span><br>
+          <input type="email" placeholder="email@company.com" name="mail" id="email" style="background-color: rgba(255, 88, 88, 0.173); border: 2px solid rgba(255, 88, 88, 0.475); color: rgba(255, 88, 88, 0.875);"> <br>
+          <button type="submit" onclick="subscribe()">Subscribe to monthly Newsletter</button>
+        </p>
+      </div>
+      <div class="image">
+        <img src="assets/images/illustration-sign-up-desktop.svg" alt="" srcset="">
+      </div>    
+    </div>
+    <div class="container2 hide">
+      <img src="assets/images/icon-success.svg" alt="" srcset="">
+      <h1>Thanks for subscribing!</h1>
+      <p>A confirmation email has been sent to <b><span id="success">dilfuzasultonova582@gmail.com</span>.</b>
+      Please open it and click the button inside to confirm your subscription.</p>
+      <button type="submit" class="btn" onclick="dis()">Dismiss message</button>
+    </div>
+  </body>
+  </html>
